@@ -1,0 +1,127 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+.hero {
+    background-image: url(https://content.r9cdn.net/rimg/dimg/b4/83/65244278-city-11592-162cfe6a30b.jpg?width=1366&height=768&xhint=2808&yhint=2381&crop=true);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    height: 343px;
+    color: white;
+    display: block;
+    padding: 10px;
+    
+}
+
+.heroTextOne {
+    width: 400px;
+    background: #1D3557;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.heroTextTwo {
+    background: #457B9D; opacity: 80%;
+    border-radius: 10px;
+    width: 412px;
+    height: 52px;
+    margin: auto;
+    font-size: 14px;
+    padding: auto;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    padding: 0;
+}
+
+img {
+    width: 100px;
+}
+
+.restaurants, .parks, .cnTower {
+    border-radius: 40%
+}
+
+.activities {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background: #F1FAEE;
+    margin: auto;
+    width: auto;
+    height: 378px;
+    
+}
+
+.activitiesContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.activityHeadline {
+    font-size: 24px;
+    color: #1D3557;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.restaurantsBox, .parksBox, .cnBox {
+    margin: 25px;
+}
+
+.actTitle {
+    font-weight: 700px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #1D3557;
+    font-style: normal;
+}
+
+.actDescription {
+    color: #1D3557;
+}
+
+.guide {
+    padding: 50px 0;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.guideText, .guideTitle, .guideName {
+    color: #1D3557;
+}
+
+
+.guideContainer {
+    width: 400px;
+    height: 294px;
+    background: #a8dadc;
+    box-shadow: 0px 6px 0px #1D3557;
+    border-radius: 10px; 
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    
+    
+}
+
+.per {
+    width: 180px;
+    height: 248.67px;
+    border-radius: 10px;
+    padding: 10px;
+}
